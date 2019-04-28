@@ -21,10 +21,15 @@ match with the name “AICIXE” then prompt the user “Do you mean AICIXE  (y/
 
 CSV format
 StockName StockDate StockPrice
+
 AICIXE 20-Jan-2019 20.453
+
 AMBKP 20-Jan-2019 30.500
+
 AICIXE 21-Jan-2019 21.000
+
 AMBKP 22-Jan-2019 29.321
+
 AMBKP 24-Jan-2019 35.453
 
 **To be noted:**
