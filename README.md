@@ -36,9 +36,15 @@ holding agents , showing loaders, adding support for all date formats, etc, etc.
 innovative.
 Test cases are added points.
 
-## Running the CLI
+## Running the CLI (Tested on Python 3.5.2)
 
 ```sh
-python stock_picker.py “pathtocsv”
+python3 stock_picker.py “pathtocsv”
+```
+
+## Running the tests (Tested on Python 3.5.2)
+
+```sh
+python3 tests.py
 ```
 
