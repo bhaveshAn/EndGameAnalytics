@@ -138,7 +138,11 @@ if __name__ == "__main__":
 
         print(
             "Here is you result : Mean = {0} , Std = {1} , Buy Date = {2} , Sell Date = {3} , Profit = {4}".format(
-                mean, sd, sol[index].b_date, sol[index].s_date, sol[index].profit
+                mean,
+                sd,
+                sol[index].b_date.strftime("%d-%b-%Y"),
+                sol[index].s_date.strftime("%d-%b-%Y"),
+                sol[index].profit,
             )
         )
 
