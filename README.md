@@ -20,6 +20,7 @@ say he inputs stock_code as “AICIX” but there is not match but there is a ve
 match with the name “AICIXE” then prompt the user “Do you mean AICIXE  (y/n)?”
 
 CSV format
+
 StockName StockDate StockPrice
 
 AICIXE 20-Jan-2019 20.453
