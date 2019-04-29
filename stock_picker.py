@@ -43,7 +43,6 @@ if __name__ == "__main__":
     while rows:
 
         name = input("Welcome Agent! Which stock you need to process? ")
-        print(stock_search.search(name))
         status, name = stock_search.search(name)
 
         if not status:
